@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BAOBIA 3D Demo</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>BAOBIA 3D Demo</h1>
+      <p>Explorez la maquette 3D interactive du concept BAOBIA.</p>
+    </header>
+
+    <main>
+      <div id="scene-container" aria-label="Scène 3D interactive"></div>
+      <aside id="info-panel" aria-live="polite">
+        <h2>Éléments de la maquette</h2>
+        <p>Cliquez sur un élément 3D pour afficher sa description.</p>
+        <p id="selected-element">Aucun élément sélectionné.</p>
+      </aside>
+    </main>
+
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "./node_modules/three/build/three.module.js"
+        }
+      }
+    </script>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
