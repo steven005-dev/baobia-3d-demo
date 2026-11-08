@@ -1,0 +1,19 @@
+{
+  "name": "baobia-3d-demo",
+  "version": "1.0.0",
+  "description": "Ce projet propose une représentation 3D interactive accessible depuis un navigateur web pour visualiser et présenter le concept de BAOBIA.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://localhost:26831/steven005-dev/baobia-3d-demo"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "three": "^0.169.0"
+  }
+}
